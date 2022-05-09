@@ -1,0 +1,17 @@
+/.idea/.gitignore
+/out/production/music-composer/.idea/.gitignore
+/Bing.mid
+/Bing.midi
+/.idea/libraries/explodingart_jmusic.xml
+/out/production/music-composer/.idea/libraries/explodingart_jmusic.xml
+/out/production/music-composer/LICENSE
+/.idea/misc.xml
+/out/production/music-composer/.idea/misc.xml
+/.idea/modules.xml
+/out/production/music-composer/.idea/modules.xml
+/.idea/music-composer.iml
+/out/production/music-composer/.idea/music-composer.iml
+/out/production/music-composer/src/MusicComposer.class
+/out/production/music-composer/README.md
+/.idea/vcs.xml
+/out/production/music-composer/.idea/vcs.xml

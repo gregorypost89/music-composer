@@ -3,19 +3,19 @@ package src;
 import jm.JMC;
 import jm.music.data.*;
 import jm.util.Play;
-import jm.util.Write;
 
 public class MusicComposer implements JMC{
 
     public static void main(String[] args) {
         //Writes midi file in the music-composer directory
-        Note note = new Note(C4, DOUBLE_DOTTED_MINIM);
+        Note n = new Note(C4, CROTCHET, MF, PAN_CENTRE);
         Phrase phrase = new Phrase();
-        phrase.addNote(note);
+        phrase.addNote(n);
         Part p = new Part();
         p.addPhrase(phrase);
-        Score s = new Score("Bing");
+        Score s = new Score("Sample");
         s.addPart(p);
-        Write.midi(s,"Bing.midi");  //extension can either be .mid or .midi
+        Play.midi(s);
+        //Write.midi(s,"Bing.midi");  //extension can either be .mid or .midi
     }
 }
